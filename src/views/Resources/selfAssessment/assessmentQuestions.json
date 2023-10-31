@@ -1,0 +1,745 @@
+{
+  "id": "qhnMQuWy",
+  "type": "quiz",
+  "title": "Communication Style Self-Assessment",
+  "workspace": {
+    "href": "https://api.typeform.com/workspaces/FKrUbT"
+  },
+  "theme": {
+    "href": "https://api.typeform.com/themes/j5Q5i84E"
+  },
+  "settings": {
+    "language": "en",
+    "progress_bar": "proportion",
+    "meta": {
+      "allow_indexing": false
+    },
+    "hide_navigation": false,
+    "is_public": true,
+    "is_trial": false,
+    "show_progress_bar": true,
+    "show_typeform_branding": false,
+    "are_uploads_public": false,
+    "show_time_to_complete": true,
+    "show_number_of_submissions": false,
+    "show_cookie_consent": false,
+    "show_question_number": true,
+    "show_key_hint_on_choices": true,
+    "autosave_progress": true,
+    "pro_subdomain_enabled": false,
+    "capabilities": {
+      "e2e_encryption": {
+        "enabled": false,
+        "modifiable": false
+      }
+    }
+  },
+  "thankyou_screens": [
+    {
+      "id": "KLuAjQtBICeX",
+      "ref": "01G503KM4ZKMH58TXHJ31A5RBP",
+      "title": "*You are done, thank you!*",
+      "type": "thankyou_screen",
+      "properties": {
+        "show_button": false,
+        "share_icons": false,
+        "button_mode": "default_redirect",
+        "button_text": "again",
+        "description": "We will email you the results very soon."
+      }
+    },
+    {
+      "id": "DefaultTyScreen",
+      "ref": "default_tys",
+      "title": "All done! Thanks for your time.",
+      "type": "thankyou_screen",
+      "properties": {
+        "show_button": false,
+        "share_icons": false
+      }
+    }
+  ],
+  "welcome_screens": [
+    {
+      "id": "6bgTyqXfcuSl",
+      "ref": "86d1bb1a-6142-448a-a264-a76398713671",
+      "title": "*Communication Style Self-Assessment*",
+      "properties": {
+        "show_button": true,
+        "button_text": "Start",
+        "description": "There are no right answers to these questions,so base your response on how you are today, not how you think you should be or would like to be in the future."
+      }
+    }
+  ],
+  "fields": [
+    {
+      "id": "VqaKfkJP4Idm",
+      "title": "*When talking to a customer or co-worker on the phone ...*",
+      "ref": "01G503KM4Z14NXFTW3XTY1KFNN",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "9YWPsxoVIcze",
+            "ref": "01G503KM4Z2CBAX8SQKPMW43F8",
+            "label": "I often fill in their words before they end a sentence."
+          },
+          {
+            "id": "OZN8K1uZBqFH",
+            "ref": "01G503KM4Z1G7T9TN0G83C3WCE",
+            "label": "I enjoy connecting personal with a customer or co-worker and hearing about their day."
+          },
+          {
+            "id": "WD7a1TDYvLJg",
+            "ref": "1b41e60b-7e50-4ba5-87b5-8a09ccbb1a19",
+            "label": "I listen and remember as much as I can."
+          },
+          {
+            "id": "IHEzmnrPL2oI",
+            "ref": "5cd5b5b1-e13f-4bb5-99c4-4d361337a05e",
+            "label": "I tend to get distracted a lot."
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "QcRZtKVz0a54",
+      "title": "*If I have an important decision to make ...*",
+      "ref": "476e10fc-fc69-49bb-8a66-6e682a0dd5bb",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "w7QnqiDG0A0s",
+            "ref": "b35ffea9-e453-4649-8bb1-bb91872cd981",
+            "label": "I think it through completely before deciding."
+          },
+          {
+            "id": "RYFCzigKiXus",
+            "ref": "de0b877c-3f4b-4c19-a671-1c462d1595ec",
+            "label": "I go with my gut instincts."
+          },
+          {
+            "id": "1N9XHF1Vnoya",
+            "ref": "1ac7f271-a1c8-4363-b30d-31e0cc82eaf7",
+            "label": "I consider the impact it will have on other people before deciding."
+          },
+          {
+            "id": "o804sLX35LXG",
+            "ref": "cc775268-2e19-458f-b305-dc395a4bcbd6",
+            "label": "I run it by someone whose opinion I respect before deciding."
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "7thB25FzTU5Q",
+      "title": "*My office or work area mostly has ...*",
+      "ref": "17db1495-72c9-4033-80de-3571ab78c8f7",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "aaDgRuzGzviz",
+            "ref": "48f52536-824a-42d5-9188-1da1d3aae840",
+            "label": "Family photos and sentimental items displayed."
+          },
+          {
+            "id": "ga8N41IO42Ye",
+            "ref": "3bcaa985-010a-4125-bc29-d670cbfb794a",
+            "label": "Inspirational posters, awards, and art displayed."
+          },
+          {
+            "id": "F4E1zMCgoRc9",
+            "ref": "a9cfa598-835b-48b6-a97d-8b1710e42555",
+            "label": "Graphs and charts displayed."
+          },
+          {
+            "id": "l1zPiDKV1HK8",
+            "ref": "2049ab5f-8d25-4d25-8bfd-c47e1d998844",
+            "label": "Calendars and project outlines displayed."
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "YfE2owTqiL6T",
+      "title": "*If I am having a conflict with a co-worker or customer ...*",
+      "ref": "08610c9c-9ba7-45ab-bd58-1f5fb4afd516",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "Da5TKIvRloXT",
+            "ref": "163601a2-7b3c-4395-9cd2-28acf0d6ea17",
+            "label": "I try to help the situation along by focusing on the positive."
+          },
+          {
+            "id": "3Sqg30cN3B3F",
+            "ref": "1d70cc2b-4a5c-4463-ad8c-07dd564e2ea6",
+            "label": "I stay calm and try to understand the cause of the conflict."
+          },
+          {
+            "id": "9HcgTwpTa3UU",
+            "ref": "04e83724-260d-4cc7-871f-8d9520c11113",
+            "label": "I try to avoid discussing the issue causing the conflict."
+          },
+          {
+            "id": "ZCQvqkt8J69a",
+            "ref": "053edc65-457e-4dee-a7f0-b30a7126d71b",
+            "label": "I confront it right away so that it can get resolved as soon as possible."
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "pCqmug0m4ICf",
+      "title": "*When I talk on the phone at work ...*",
+      "ref": "b9d9f6ae-27e6-4ae9-9c04-e212f24ca604",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "pHX0yER44s7v",
+            "ref": "9d34b3f3-0d59-482f-bc66-8b174f3bc7e8",
+            "label": "I keep the conversation focused on the purpose of the call."
+          },
+          {
+            "id": "oO1qTqIuiF0m",
+            "ref": "8ce6814d-e7c9-4a0b-b3b3-ae66aeb9c93a",
+            "label": "I spend a few minutes chatting before getting down to business."
+          },
+          {
+            "id": "re0KOwNcIFDb",
+            "ref": "3c806b1d-aae7-450e-a203-286283a64764",
+            "label": "I am in no hurry to get off the phone and don't mind chatting about personal things, the weather, and so on."
+          },
+          {
+            "id": "lZyvTWDk9BFO",
+            "ref": "f6c6f8b1-508e-4ffc-a5af-e64ec0f3e9b8",
+            "label": "I try to keep the conversation as brief as possible."
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "iRfe6nDeStI0",
+      "title": "*If a co-worker is upset...*",
+      "ref": "6042bc63-2d08-4bdd-8369-26213321256f",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "nBXyxmFqsbda",
+            "ref": "3ced3d1f-f457-4c81-ad1c-e9d4fb608bd9",
+            "label": "I ask if I can do anything to help."
+          },
+          {
+            "id": "KHzoI7p7yPkB",
+            "ref": "ff5ed177-a295-4c94-8954-44781c4d84ff",
+            "label": "I leave him alone because I don't want to intrude on his privacy."
+          },
+          {
+            "id": "BoQPaQg7ILsc",
+            "ref": "17f2e873-d7c6-4b1e-afde-5b02f0cddfe8",
+            "label": "I try to cheer him up and help him to see the bright side."
+          },
+          {
+            "id": "AnOt1765G2gT",
+            "ref": "a22dd856-237a-4a07-982a-3a46a2b4e3e5",
+            "label": "I feel uncomfortable and hope he gets over it soon."
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "T2Ez134BaBSN",
+      "title": "*When I attend meetings at work ...*",
+      "ref": "c6f385ae-ef7c-42c9-9191-b9d6980ddcde",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "Syaj98nfIhp9",
+            "ref": "f9c80024-3a4f-432b-b1a5-be250789b4da",
+            "label": "I sit back and think about what is being said before offering my opinion."
+          },
+          {
+            "id": "nZI0YxTbtQfm",
+            "ref": "f7e9751a-c421-48fe-8b1d-3a924308ffed",
+            "label": "I put all my cards on the table, so my opinion is well known."
+          },
+          {
+            "id": "epvAp3SvCPjx",
+            "ref": "8e1e9405-2465-4d66-8d35-7aa916734f21",
+            "label": "I express my opinion enthusiastically but listen to other's ideas as well."
+          },
+          {
+            "id": "CXIFOjeDad5Q",
+            "ref": "4303d1a0-d901-4827-bbf2-ca818e66bb4a",
+            "label": "I try to support the ideas of the other people in the meeting."
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "70dYZsHYUxFQ",
+      "title": "*When I make a presentation in front of a group ...*",
+      "ref": "a886a7ec-e8fd-408f-b808-b99d1119b5dc",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "XJpXASLNNpp8",
+            "ref": "8ed8de55-682e-4b4f-bca5-da635a39d392",
+            "label": "I am entertaining and often humorous."
+          },
+          {
+            "id": "EcW3S5OvWsLq",
+            "ref": "7be14150-0a8e-4d7c-bd5b-cd7801f91ad5",
+            "label": "I am clear and concise."
+          },
+          {
+            "id": "RZJB53a1Nuu5",
+            "ref": "01947d6a-e3ee-4649-a3e1-007d663a7c9e",
+            "label": "I speak relatively quietly."
+          },
+          {
+            "id": "sawk0gWqb4P2",
+            "ref": "c571fd4f-58e3-46c9-821c-8289bbf7a2c4",
+            "label": "I am direct,specific, and sometimes loud."
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "n9c4MqWSS4WQ",
+      "title": "*When a customer is explaining a problem to me ...*",
+      "ref": "e5ab5da3-0ebe-41dd-b4c5-a87949fbe29e",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "D2uYD4NwAJSq",
+            "ref": "1dd68907-756e-433d-9576-9ce442c8f9ed",
+            "label": "I try to understand and empathize with how she is feeling."
+          },
+          {
+            "id": "OcJPntYHBaBS",
+            "ref": "a78dbbe1-f98b-4d04-9961-a216b78c0de1",
+            "label": "I look for the specific facts pertaining to the situation."
+          },
+          {
+            "id": "jG3Xq2vUtG6T",
+            "ref": "7304f438-6951-4247-b9bd-b571598280b1",
+            "label": "I listen carefully for the main issue so that I can find a solution."
+          },
+          {
+            "id": "otgxQSDsgmDm",
+            "ref": "21870c61-8c6a-4d7e-be4e-bd7a91ab90ed",
+            "label": "I use my body language and tone of voice to show her that I understand."
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "CtKQM9t3FtS6",
+      "title": "*When I attend training programs or presentations ...*",
+      "ref": "8b2f5c39-3e72-4f69-9448-27d4363b959d",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "9G7iSqtiHeQK",
+            "ref": "44259d66-ca77-4d29-be13-931d1ef3e2da",
+            "label": "I get bored if the person moves too slowly."
+          },
+          {
+            "id": "yMU5mXqaBWTv",
+            "ref": "7458103a-118f-457d-82ad-84862159b9f4",
+            "label": "I try to be supportive of the speaker, knowing how hard the job is."
+          },
+          {
+            "id": "QuabsiYuJigp",
+            "ref": "7ad838fe-39df-418d-8a2a-6f5120282a7a",
+            "label": "I want it to be entertaining as well as informative."
+          },
+          {
+            "id": "IMF8mqF0bLLH",
+            "ref": "b6fd8da6-a09d-40fc-91c7-d41fbe340719",
+            "label": "I look for the logic behind what the speaker is saying."
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "bTvx5Ew62KCm",
+      "title": "*When I want to get my point across to customers or co-workers ...*",
+      "ref": "05ce20ad-9a8a-432f-85eb-b705a5bced50",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "fZIkx8d5NQkQ",
+            "ref": "c8984af4-2e20-469b-bf5d-a8a6b70628bb",
+            "label": "I listen to their point of view first and then express my ideas gently."
+          },
+          {
+            "id": "v6h6C0l7Y2Iw",
+            "ref": "a23a83ae-6217-4003-b7a3-a10a66018477",
+            "label": "I strongly state my opinion so that they know where I stand."
+          },
+          {
+            "id": "oWQvzBBPUWxI",
+            "ref": "494040eb-9d43-49c6-ac62-dd79f260ec74",
+            "label": "I try to persuade them without being too forceful."
+          },
+          {
+            "id": "emNoen4deJPB",
+            "ref": "2547f1e6-162d-40a4-848e-cc7655cf4846",
+            "label": "I explain the thinking and logic behind what I am saying."
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "ScHGHEqMii18",
+      "title": "*When I am late for a meeting or appointment ...*",
+      "ref": "f4b0bbf3-3ed7-4096-8915-432da434a151",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "poSZuBfC2ZD9",
+            "ref": "dc76f721-cbd3-4380-b0ef-7faa45d11ffa",
+            "label": "I don't panic but call ahead to say that I will be a few minutes late."
+          },
+          {
+            "id": "IxL5F6Sz4SeP",
+            "ref": "324be87b-76d1-4642-b0ca-e41e22899c03",
+            "label": "I feel bad about keeping the other person waiting."
+          },
+          {
+            "id": "0ry2baI1JsWp",
+            "ref": "367a7519-90db-4637-b806-6aed4ae200bc",
+            "label": "I get very upset and rush to get there as soon as possible."
+          },
+          {
+            "id": "7VaHugDWIgE3",
+            "ref": "f0b779cc-4520-4105-83b3-f73941b4e967",
+            "label": "I apologize profusely once I arrive."
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "XGq96j3lg5XV",
+      "title": "*I set goals and objectives at work that ...*",
+      "ref": "bbe2c7ca-8520-41cf-a16f-ca31b8e15cf9",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "Clmx6RWCgUH5",
+            "ref": "d365dc12-685e-44e3-a781-7276ec722de3",
+            "label": "I think I can realistically attain."
+          },
+          {
+            "id": "j6ULqV2mTH0J",
+            "ref": "326c9f34-43a1-421a-81f7-6a717baa6cb8",
+            "label": "I feel are challenging and would be exciting to achieve."
+          },
+          {
+            "id": "kkN2A0bxOKAp",
+            "ref": "41b52435-f52f-4265-87fd-fa2f2fb22fea",
+            "label": "I need to achieve as part of a bigger objective."
+          },
+          {
+            "id": "SC4dkZp9G65Z",
+            "ref": "c631ef5f-7047-4bcc-82e8-d87f09cedd7e",
+            "label": "Will make me feel good when I achieve them."
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "sHULbag7m9Wd",
+      "title": "*When explaining a problem to a co-worker whom I need help from ...*",
+      "ref": "d5a32d5f-b608-4123-a00f-0d66bc6fe6d6",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "BJD7DXkfqQiI",
+            "ref": "5460ab24-1c8a-4555-882d-51c15a7925d1",
+            "label": "I explain the problem in as much detail as possible."
+          },
+          {
+            "id": "h0ml2WKv6HnP",
+            "ref": "007b2009-3b99-4fa2-b207-c872a95b6d7a",
+            "label": "I sometimes exaggerate to make my point."
+          },
+          {
+            "id": "oktF8njM09ry",
+            "ref": "2838cc04-62f4-4243-a91b-a3c097cd09de",
+            "label": "I try to explain how the problem makes me feel."
+          },
+          {
+            "id": "lLawuELWaerI",
+            "ref": "d05d403d-8b05-4665-b79f-5388f5adca29",
+            "label": "I explain how I would like the problem to be solved."
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "5OQoHv4fuShB",
+      "title": "*If customers or co-Workers are late for a meeting with me in my office ...*",
+      "ref": "81901483-6464-47d6-98f2-e19016714229",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "s4jJKQtNfoz7",
+            "ref": "cf99470a-52b1-4311-91d4-9670f42b4855",
+            "label": "I keep myself busy by making phone calls or working until they arrive."
+          },
+          {
+            "id": "HiYyZWfGvoSo",
+            "ref": "99bd633e-1ac0-47ca-9e34-bcf44cf3d366",
+            "label": "I assume they were delayed a bit and don't get upset."
+          },
+          {
+            "id": "tH5dbMSKOLWb",
+            "ref": "5f6c3c56-80a4-4ba6-9e3e-beda7e9d6bbc",
+            "label": "I call to make sure that I have the correct information (date, time, and so on)."
+          },
+          {
+            "id": "a1KbPKBKJfKy",
+            "ref": "ac64a94c-1e5f-485b-8a17-79c99e145ed1",
+            "label": "I get upset that the person is wasting my time."
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "1IoeGHN6VY14",
+      "title": "*When I am behind on a project and feel pressure to get it done ...*",
+      "ref": "18b6dd59-9b6b-46c5-bf64-d8dcd91cf1d4",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "AQNvQqDiUSlz",
+            "ref": "eca6abcb-6d9d-442c-aade-4f2837e5ce5c",
+            "label": "I make a list of everything I need to do, in what order, by when."
+          },
+          {
+            "id": "vqX3AgApdG0B",
+            "ref": "1212c8fa-e1a2-4aa4-b08e-27b176ca89c4",
+            "label": "I block out everything else and focus 100 percent on the work I need to do."
+          },
+          {
+            "id": "VMRkz4eISYvC",
+            "ref": "4549866b-e9cc-4dbb-8cac-a7f37488f2bf",
+            "label": "I become anxious and have a hard time focusing on my work."
+          },
+          {
+            "id": "uVlFI5YJ3hwL",
+            "ref": "3e80ee27-f314-459f-ab28-480235c253b0",
+            "label": "I set a date to get the project done by and go for it."
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "VMHt97f02HPw",
+      "title": "*When I feel verbally attacked by a customer or a co-worker ...*",
+      "ref": "9603eb39-fbf5-41d4-8d1f-b226289959e0",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "l0oXpfeL0zga",
+            "ref": "96016abe-f852-4137-b302-bc38d9d61833",
+            "label": "I tell her to stop it."
+          },
+          {
+            "id": "wXp1qCcWR8iq",
+            "ref": "0d870412-4c6f-487f-a61b-9729e97c435e",
+            "label": "I feel hurt but usually don't say anything about it to her."
+          },
+          {
+            "id": "IKnijQIOX767",
+            "ref": "32e119d7-e61c-4ae7-afee-b5c583e1c5c6",
+            "label": "I ignore her anger and try to focus on the facts of the situation."
+          },
+          {
+            "id": "ewYeo19Evlka",
+            "ref": "b1d3c9fc-b8cf-4694-bdcc-cadfc6d8536d",
+            "label": "I let her know in strong terms that I don't like her behaviour."
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    },
+    {
+      "id": "LiDGcP9m1q8R",
+      "title": "*When I see a co-worker or customer whom I like and haven't seen recently ...*",
+      "ref": "860f7c89-147e-4a1a-b84e-1872e64bfad1",
+      "properties": {
+        "randomize": false,
+        "allow_multiple_selection": false,
+        "allow_other_choice": false,
+        "vertical_alignment": true,
+        "choices": [
+          {
+            "id": "MnxFFh1HE3b3",
+            "ref": "f11147a5-a06e-446e-a283-510a5ef0ab82",
+            "label": "I give him a friendly hug."
+          },
+          {
+            "id": "C5nd1RXGDkJs",
+            "ref": "d69fee20-4549-4b54-b421-3d25cc8eb65b",
+            "label": "I greet him but don't shake his hand."
+          },
+          {
+            "id": "PpEVBINNC1bn",
+            "ref": "a9726ff5-eea1-4614-bb02-fa56816e69f1",
+            "label": "I give him a firm but quick hand shake."
+          },
+          {
+            "id": "2kZZNM1ahvqY",
+            "ref": "fbcd9a60-32a5-45f4-8c76-0c8c557ce2b3",
+            "label": "I give him an enthusiastic handshake that lasts a few moments."
+          }
+        ]
+      },
+      "validations": {
+        "required": true
+      },
+      "type": "multiple_choice"
+    }
+  ],
+  "_links": {
+    "display": "https://mj5g3r6f5ah.typeform.com/to/qhnMQuWy"
+  }
+}

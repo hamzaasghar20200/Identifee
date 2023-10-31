@@ -1,0 +1,228 @@
+.dash-tabs.nav-pills:not(.nav-segment) .nav-link.active {
+  background: var(--secondaryColor);
+  border-color: var(--secondaryColor);
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+  .container {
+    max-width: 100%;
+  }
+  .conversation-wrapper .comment-box {
+    right: 15px;
+    width: calc(100% - 330px);
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .container {
+    max-width: 100%;
+  }
+  .conversation-wrapper .comment-box {
+    right: 15px;
+    width: calc(100% - 330px);
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .container {
+    max-width: 100%;
+  }
+  .client-dashboard .left_sidebar_container {
+    transform: translateX(-100%);
+    padding-top: 40px;
+  }
+  .client-dashboard.showsidebar .left_sidebar_container {
+    left: 0;
+    transform: translateX(0);
+  }
+  .client-dashboard .left_sidebar_container .logo {
+    display: none;
+  }
+  .client-dashboard {
+    padding-left: 0;
+  }
+  .client-main-content {
+    padding-top: 60px;
+  }
+  .header-area {
+    position: static;
+    background: linear-gradient(0deg, #efeff3, #efeff3),
+      linear-gradient(0deg, #f3f3f7, #f3f3f7) !important;
+    width: 100%;
+  }
+  .mobile-menu {
+    display: flex !important;
+  }
+  .bank-rep {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+    padding: 0 15px;
+  }
+  .mobile-menu section {
+    display: block;
+  }
+  .header-area section {
+    display: none;
+  }
+  .conversation-wrapper .comment-box {
+    right: 15px;
+    width: calc(100% - 30px);
+  }
+  .client-main-content.conversation-page .conversation-notes {
+    margin-top: 0;
+  }
+  .client-main-content.conversation-page .page-title {
+    position: static;
+  }
+  .add-new-chat {
+    top: -40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: 100%;
+  }
+  .client-dashboard .left_sidebar_container {
+    transform: translateX(-100%);
+    padding-top: 40px;
+  }
+  .client-dashboard.showsidebar .left_sidebar_container {
+    left: 0;
+    width: 100%;
+    transform: translateX(0);
+  }
+  .client-dashboard .left_sidebar_container .logo {
+    display: none;
+  }
+  .client-dashboard {
+    padding-left: 0;
+  }
+  .header-area {
+    position: static;
+    width: 100%;
+    background: linear-gradient(0deg, #efeff3, #efeff3),
+      linear-gradient(0deg, #f3f3f7, #f3f3f7) !important;
+  }
+  .mobile-menu {
+    display: flex !important;
+  }
+  .client-main-content {
+    padding-top: 60px;
+  }
+  .bank-rep {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+    padding: 0 15px;
+  }
+  .mobile-menu section {
+    display: block;
+  }
+  .header-area section {
+    display: none;
+  }
+  .conversation-wrapper .comment-box {
+    right: 15px;
+    width: calc(100% - 30px);
+  }
+  .client-main-content.conversation-page .conversation-notes {
+    margin-top: 0;
+  }
+  .client-main-content.conversation-page .page-title {
+    position: static;
+  }
+  .add-new-chat {
+    top: -40px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    max-width: 100%;
+  }
+  .client-dashboard .left_sidebar_container {
+    transform: translateX(-100%);
+    padding-top: 40px;
+  }
+  .client-dashboard.showsidebar .left_sidebar_container {
+    left: 0;
+    width: 100%;
+    transform: translateX(0);
+  }
+  .client-dashboard .left_sidebar_container .logo {
+    display: none;
+  }
+  .client-dashboard {
+    padding-left: 0;
+  }
+  .header-area {
+    position: static;
+    width: 100%;
+    background: linear-gradient(0deg, #efeff3, #efeff3),
+      linear-gradient(0deg, #f3f3f7, #f3f3f7) !important;
+  }
+  .mobile-menu {
+    display: flex !important;
+  }
+  .client-main-content {
+    padding-top: 60px;
+  }
+  .report-btns {
+    position: static;
+    margin: 0 0 20px 0;
+  }
+  .dash-tabs .nav-link {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    align-items: center;
+    display: flex;
+    padding: 8px 5px;
+    justify-content: center;
+  }
+  .bank-rep {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+    padding: 0 15px;
+  }
+  .mobile-menu section {
+    display: block;
+  }
+  .header-area section {
+    display: none;
+  }
+  .report-controls {
+    top: -120px !important;
+  }
+  .modal-bank-rep .rep-info,
+  .modal-bank-rep .rep-info .info-left {
+    flex-direction: column;
+  }
+  .modal-bank-rep .rep-info .info-left .text {
+    text-align: center;
+  }
+  .required-action .text {
+    width: 100% !important;
+  }
+  .conversation-wrapper .comment-box {
+    right: 15px;
+    width: calc(100% - 30px);
+  }
+  .client-main-content.conversation-page .conversation-notes {
+    margin-top: 0;
+  }
+  .client-main-content.conversation-page .page-title {
+    position: static;
+  }
+  .add-new-chat {
+    top: -40px;
+  }
+}

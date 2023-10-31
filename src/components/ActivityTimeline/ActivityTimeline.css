@@ -1,0 +1,117 @@
+.timeline-wrapper{
+    position: relative;
+    padding: 0 0 0 70px;
+}
+
+.timeline-wrapper::after{
+    position: absolute;
+    top: 4px;
+    content: ' ';
+    display: block;
+    width: 2px;
+    height: 100%;
+    margin-left: -2px;
+    background: #eee;
+    left: 71px;
+}
+
+.view-more-btn{
+    transform: translate(-50%, 18%);
+    z-index: 1;
+    position: relative;
+}
+
+.timeline-list{
+    margin: 0;
+    padding: 0;
+}
+
+.timeline-section{
+    list-style: none;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.timeline-head {
+    text-transform: uppercase;
+    color: #515159;
+    padding: 0 25px 30px 25px;
+    font-size: 14px;
+}
+
+.timeline-head:after {
+    content: '';
+    position: absolute;
+    background-color: var(--wonDarkColor);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: block;
+    left: -6px;
+    top: 4px;
+    z-index: 1;
+}
+
+.timeline-item{
+    position: relative;
+}
+
+.timeline-item:after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    border: 2px solid #eee;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -8px;
+    z-index: 2;
+}
+
+.timeline-item-time {
+    transform: translate(-100%, -50%);
+    top: 50%;
+    position: absolute;
+    display: inline-block;
+    text-align: right;
+    padding-right: 22px;
+    font-size: 13px;
+}
+
+.timeline-item-detail {
+    position: relative;
+    left: 25px;
+    top: 0;
+    display: block;
+    width: 95%;
+}
+
+.timeline-section {
+    list-style: none;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.timeline-empty-item .timeline-item {
+    padding: 0 0 25px;
+    margin-top: -5px;
+}
+
+.timeline-empty-item .timeline-item:after {
+    background: none;
+    border-radius: 0;
+    border-width: 0;
+    height: 1px;
+    width: 112%;
+    left: -12%;
+    right: 0;
+}
+
+.timeline-item-description {
+    display: inline-block;
+    padding-left: 0.2rem;
+    width: 80%;
+}

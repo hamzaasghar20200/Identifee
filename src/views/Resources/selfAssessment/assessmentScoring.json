@@ -1,0 +1,20 @@
+{
+  "1": ["Driver", "Amiable", "Analytical", "Expressive"],
+  "2": ["Analytical", "Driver", "Amiable", "Expressive"],
+  "3": ["Amiable", "Expressive", "Analytical", "Driver"],
+  "4": ["Expressive", "Amiable", "Analytical", "Driver"],
+  "5": ["Driver", "Expressive", "Amiable", "Analytical"],
+  "6": ["Amiable", "Analytical", "Expressive", "Driver"],
+  "7": ["Analytical", "Driver", "Expressive", "Amiable"],
+  "8": ["Expressive", "Analytical", "Amiable", "Driver"],
+  "9": ["Amiable", "Analytical", "Driver", "Expressive"],
+  "10": ["Driver", "Amiable", "Expressive", "Analytical"],
+  "11": ["Amiable", "Driver", "Expressive", "Analytical"],
+  "12": ["Analytical", "Amiable", "Driver", "Expressive"],
+  "13": ["Analytical", "Expressive", "Driver", "Amiable"],
+  "14": ["Analytical", "Expressive", "Amiable", "Driver"],
+  "15": ["Expressive", "Amiable", "Analytical", "Driver"],
+  "16": ["Analytical", "Driver", "Amiable", "Expressive"],
+  "17": ["Driver", "Amiable", "Analytical", "Expressive"],
+  "18": ["Amiable", "Analytical", "Driver", "Expressive"]
+}

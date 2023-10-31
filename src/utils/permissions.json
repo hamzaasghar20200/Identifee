@@ -1,0 +1,575 @@
+{
+  "permissionList": [
+    {
+      "name": "General Permissions",
+      "inner_permissions": [
+        {
+          "name": "dashboard",
+          "label": "Dashboards",
+          "tenantModule": "home",
+          "group": [
+            {
+              "name": "view",
+              "label": "View",
+              "permissions": [
+                {
+                  "label": "View",
+                  "collection": "dashboard",
+                  "action": "view"
+                }
+              ]
+            },
+            {
+              "name": "manage",
+              "label": "Manage",
+              "permissions": [
+                {
+                  "label": "Manage",
+                  "collection": "dashboard",
+                  "action": "manage"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "contacts",
+          "label": "Contacts",
+          "tenantModule": "contacts",
+          "group": [
+            {
+              "name": "view",
+              "label": "View",
+              "permissions": [
+                {
+                  "label": "View",
+                  "collection": "contacts",
+                  "action": "view"
+                }
+              ]
+            },
+            {
+              "name": "create",
+              "label": "Create",
+              "permissions": [
+                {
+                  "label": "Create",
+                  "collection": "contacts",
+                  "action": "create"
+                }
+              ]
+            },
+            {
+              "name": "edit",
+              "label": "Edit",
+              "permissions": [
+                {
+                  "label": "Edit",
+                  "collection": "contacts",
+                  "action": "edit"
+                }
+              ]
+            },
+            {
+              "name": "delete",
+              "label": "Delete",
+              "permissions": [
+                {
+                  "label": "Delete",
+                  "collection": "contacts",
+                  "action": "delete"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "deals",
+          "label": "Deals",
+          "tenantModule": "pipelines",
+          "group": [
+            {
+              "name": "view",
+              "label": "View",
+              "permissions": [
+                {
+                  "label": "View",
+                  "collection": "deals",
+                  "action": "view"
+                }
+              ]
+            },
+            {
+              "name": "create",
+              "label": "Create",
+              "permissions": [
+                {
+                  "label": "Create",
+                  "collection": "deals",
+                  "action": "create"
+                }
+              ]
+            },
+            {
+              "name": "edit",
+              "label": "Edit",
+              "permissions": [
+                {
+                  "label": "Edit",
+                  "collection": "deals",
+                  "action": "edit"
+                }
+              ]
+            },
+            {
+              "name": "delete",
+              "label": "Delete",
+              "permissions": [
+                {
+                  "label": "Delete",
+                  "collection": "deals",
+                  "action": "delete"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "activities",
+          "label": "Activities",
+          "tenantModule": "activities",
+          "group": [
+            {
+              "name": "view",
+              "label": "View",
+              "permissions": [
+                {
+                  "label": "View",
+                  "collection": "activities",
+                  "action": "view"
+                }
+              ]
+            },
+            {
+              "name": "create",
+              "label": "Create",
+              "permissions": [
+                {
+                  "label": "Create",
+                  "collection": "activities",
+                  "action": "create"
+                }
+              ]
+            },
+            {
+              "name": "edit",
+              "label": "Edit",
+              "permissions": [
+                {
+                  "label": "Edit",
+                  "collection": "activities",
+                  "action": "edit"
+                }
+              ]
+            },
+            {
+              "name": "delete",
+              "label": "Delete",
+              "permissions": [
+                {
+                  "label": "Delete",
+                  "collection": "activities",
+                  "action": "delete"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "reports",
+          "label": "Insights",
+          "tenantModule": "reporting",
+          "group": [
+            {
+              "name": "view",
+              "label": "View",
+              "permissions": [
+                {
+                  "label": "View",
+                  "collection": "reports",
+                  "action": "view"
+                }
+              ]
+            },
+            {
+              "name": "create",
+              "label": "Create",
+              "permissions": [
+                {
+                  "label": "Create",
+                  "collection": "reports",
+                  "action": "create"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "prospects",
+          "label": "Resources",
+          "tenantModule": "prospecting",
+          "group": [
+            {
+              "name": "create",
+              "label": "create",
+              "permissions": [
+                {
+                  "collection": "prospects",
+                  "action": "create"
+                }
+              ]
+            },
+            {
+              "name": "view",
+              "label": "view",
+              "permissions": [
+                {
+                  "collection": "prospects",
+                  "action": "view"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "lessons",
+          "label": "Training",
+          "tenantModule": "learn",
+          "group": [
+            {
+              "name": "view",
+              "label": "View",
+              "permissions": [
+                {
+                  "collection": "lessons",
+                  "action": "view"
+                }
+              ]
+            },
+            {
+              "name": "edit",
+              "label": "Edit",
+              "permissions": [
+                {
+                  "collection": "lessons",
+                  "action": "edit"
+                }
+              ]
+            },
+            {
+              "name": "create",
+              "label": "Create",
+              "permissions": [
+                {
+                  "collection": "lessons",
+                  "action": "create"
+                }
+              ]
+            },
+            {
+              "name": "delete",
+              "label": "Delete",
+              "permissions": [
+                {
+                  "collection": "lessons",
+                  "action": "delete"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "products",
+          "label": "Products",
+          "tenantModule": "settings_products",
+          "group": [
+            {
+              "name": "view",
+              "label": "View",
+              "permissions": [
+                {
+                  "label": "View",
+                  "collection": "products",
+                  "action": "view"
+                }
+              ]
+            },
+            {
+              "name": "create",
+              "label": "Create",
+              "permissions": [
+                {
+                  "label": "Create",
+                  "collection": "products",
+                  "action": "create"
+                }
+              ]
+            },
+            {
+              "name": "edit",
+              "label": "Edit",
+              "permissions": [
+                {
+                  "label": "Edit",
+                  "collection": "products",
+                  "action": "edit"
+                }
+              ]
+            },
+            {
+              "name": "delete",
+              "label": "Delete",
+              "permissions": [
+                {
+                  "label": "Delete",
+                  "collection": "products",
+                  "action": "delete"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "notes",
+          "label": "Notes",
+          "tenantModule": "crm",
+          "group": [
+            {
+              "name": "view",
+              "label": "View",
+              "permissions": [
+                {
+                  "label": "View",
+                  "collection": "notes",
+                  "action": "view"
+                }
+              ]
+            },
+            {
+              "name": "create",
+              "label": "Create",
+              "permissions": [
+                {
+                  "label": "Create",
+                  "collection": "notes",
+                  "action": "create"
+                }
+              ]
+            },
+            {
+              "name": "edit",
+              "label": "Edit",
+              "permissions": [
+                {
+                  "label": "Edit",
+                  "collection": "notes",
+                  "action": "edit"
+                }
+              ]
+            },
+            {
+              "name": "delete",
+              "label": "Delete",
+              "permissions": [
+                {
+                  "label": "Delete",
+                  "collection": "notes",
+                  "action": "delete"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Advanced Permissions",
+      "inner_permissions": [
+        {
+          "name": "tenants",
+          "label": "Branding",
+          "tenantModule": "settings_branding",
+          "group": [
+            {
+              "name": "view",
+              "label": "View",
+              "permissions": [
+                {
+                  "collection": "tenants",
+                  "action": "view"
+                }
+              ]
+            },
+            {
+              "name": "edit",
+              "label": "Edit",
+              "permissions": [
+                {
+                  "collection": "tenants",
+                  "action": "edit"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "users",
+          "label": "Users & Controls",
+          "tenantModule": "settings_users_and_controls",
+          "group": [
+            {
+              "name": "view",
+              "label": "View",
+              "permissions": [
+                {
+                  "collection": "users",
+                  "action": "view"
+                }
+              ]
+            },
+            {
+              "name": "edit",
+              "label": "Edit",
+              "permissions": [
+                {
+                  "collection": "users",
+                  "action": "edit"
+                }
+              ]
+            },
+            {
+              "name": "create",
+              "label": "Create",
+              "permissions": [
+                {
+                  "collection": "users",
+                  "action": "create"
+                }
+              ]
+            },
+            {
+              "name": "delete",
+              "label": "Delete",
+              "permissions": [
+                {
+                  "collection": "users",
+                  "action": "delete"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "pipelines",
+          "label": "Pipeline & Stages",
+          "tenantModule": "settings_pipeline_and_stages",
+          "group": [
+            {
+              "name": "view",
+              "label": "View",
+              "permissions": [
+                {
+                  "collection": "pipelines",
+                  "action": "view"
+                }
+              ]
+            },
+            {
+              "name": "edit",
+              "label": "Edit",
+              "permissions": [
+                {
+                  "collection": "pipelines",
+                  "action": "edit"
+                }
+              ]
+            },
+            {
+              "name": "create",
+              "label": "Create",
+              "permissions": [
+                {
+                  "collection": "pipelines",
+                  "action": "create"
+                }
+              ]
+            },
+            {
+              "name": "delete",
+              "label": "Delete",
+              "permissions": [
+                {
+                  "collection": "pipelines",
+                  "action": "delete"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fields",
+          "label": "Fields",
+          "tenantModule": "settings_fields",
+          "group": [
+            {
+              "name": "view",
+              "label": "View",
+              "permissions": [
+                {
+                  "collection": "fields",
+                  "action": "view"
+                }
+              ]
+            },
+            {
+              "name": "edit",
+              "label": "Edit",
+              "permissions": [
+                {
+                  "collection": "fields",
+                  "action": "edit"
+                }
+              ]
+            },
+            {
+              "name": "create",
+              "label": "Create",
+              "permissions": [
+                {
+                  "collection": "fields",
+                  "action": "create"
+                }
+              ]
+            },
+            {
+              "name": "delete",
+              "label": "Delete",
+              "permissions": [
+                {
+                  "collection": "fields",
+                  "action": "delete"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "label": "Bulk Import",
+          "tenantModule": "",
+          "group": []
+        }
+      ]
+    }
+  ]
+}

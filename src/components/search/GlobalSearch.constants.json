@@ -1,0 +1,148 @@
+{
+  "optionsList": [
+    {
+      "name": "all",
+      "label": "All",
+      "key": "all",
+      "route": "dashboard",
+      "icon": "dashboard",
+      "typeKey": "all",
+      "permission": {
+        "collection": "dashboard",
+        "action": "view"
+      },
+      "module": "dashboards"
+    },
+    {
+      "name": "companies",
+      "label": "Companies",
+      "key": "organizations",
+      "icon": "corporate_fare",
+      "route": "companies",
+      "kind": "organization",
+      "typeKey": "all",
+      "permission": {
+        "collection": "contacts",
+        "action": "view"
+      },
+      "type": "organization",
+      "module": "companies"
+    },
+    {
+      "name": "contacts",
+      "label": "Contacts",
+      "route": "contacts",
+      "key": "contacts",
+      "icon": "people_outline",
+      "kind": "contact",
+      "typeKey": "all",
+      "permission": {
+        "collection": "contacts",
+        "action": "view"
+      },
+      "type": "contact",
+      "module": "contacts"
+    },
+    {
+      "name": "pipeline",
+      "label": "Pipeline",
+      "key": "deals",
+      "route": "pipeline",
+      "icon": "monetization_on",
+      "kind": "deal",
+      "typeKey": "all",
+      "permission": {
+        "collection": "deals",
+        "action": "view"
+      },
+      "type": "deal",
+      "module": "deals"
+    },
+    {
+      "name": "products",
+      "label": "Products",
+      "key": "products",
+      "route": "products",
+      "icon": "app_registration",
+      "kind": "product",
+      "typeKey": "all",
+      "permission": {
+        "collection": "products",
+        "action": "view"
+      },
+      "type": "product",
+      "module": "setting_products"
+    },
+    {
+      "name": "learn",
+      "label": "Learn",
+      "key": "training",
+      "icon": "school",
+      "route": "learn",
+      "kind": "training",
+      "typeKey": "all",
+      "permission": {
+        "collection": "lessons",
+        "action": "view"
+      },
+      "type": "training",
+      "module": "learn"
+    },
+    {
+      "name": "tasks",
+      "label": "Task",
+      "icon": "task",
+      "key": "task",
+      "route": "task",
+      "kind": "activity",
+      "permission": {
+        "collection": "activities",
+        "action": "view"
+      },
+      "type": "task",
+      "module": "activities"
+    },
+    {
+      "name": "events",
+      "label": "Event",
+      "route": "event",
+      "icon": "event",
+      "key": "event",
+      "kind": "activity",
+      "permission": {
+        "collection": "activities",
+        "action": "view"
+      },
+      "type": "event",
+      "module": "activities"
+    },
+    {
+      "name": "calls",
+      "label": "Call",
+      "icon": "call",
+      "route": "call",
+      "kind": "activity",
+      "key": "call",
+      "permission": {
+        "collection": "activities",
+        "action": "view"
+      },
+      "type": "call",
+      "module": "activities"
+    }
+  ],
+  "mainIconsList": {
+    "contact": "people_outline",
+    "deal": "monetization_on",
+    "organization": "corporate_fare",
+    "course": "school",
+    "lesson": "menu_book",
+    "category": "list_alt",
+    "activity": "calendar_today",
+    "file": "attachment",
+    "call": "phone",
+    "task": "task",
+    "event": "event",
+    "product": "app_registration"
+  }
+}

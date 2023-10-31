@@ -1,0 +1,54 @@
+{
+  "eslint.workingDirectories": ["./lib", "./sequelize"],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "better-comments.tags": [
+    {
+      "backgroundColor": "transparent",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "tag": "!"
+    },
+    {
+      "backgroundColor": "transparent",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "tag": "?"
+    },
+    {
+      "backgroundColor": "transparent",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "tag": "todo"
+    },
+    {
+      "backgroundColor": "transparent",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "tag": "TODO"
+    },
+    {
+      "backgroundColor": "transparent",
+      "color": "#98C379",
+      "strikethrough": false,
+      "tag": "*"
+    }
+  ],
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "eslint.options": {},
+  "eslint.validate": [
+    "html",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+}

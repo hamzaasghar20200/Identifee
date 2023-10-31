@@ -1,0 +1,115 @@
+{
+  "notificationsList": [
+    {
+      "name": "activity_reminders",
+      "label": "Activity Reminders",
+      "subHeading": "Activities scheduled for the day.",
+      "group": [
+        {
+          "isChecked": true,
+          "name": "alert",
+          "label": "Show alert",
+          "collection": "activity_reminders"
+        },
+        {
+          "name": "summary_email",
+          "label": "Include in summary email",
+          "collection": "activity_reminders"
+        },
+        {
+          "name": "active",
+          "label": "Send a separate email 1 hour before activity’s start",
+          "collection": "activity_reminders"
+        }
+      ]
+    },
+    {
+      "name": "updates_follow",
+      "label": "Updates on what I follow",
+      "subHeading": "When changes are made to the deals, people, or organizations you follow.",
+      "group": [
+        {
+          "name": "deals",
+          "label": "Deals",
+          "collection": "updates_follow"
+        },
+        {
+          "name": "organizations",
+          "label": "Organizations",
+          "collection": "updates_follow"
+        },
+        {
+          "name": "people",
+          "label": "People",
+          "collection": "updates_follow"
+        },
+        {
+          "name": "show_alert",
+          "label": "Show alert",
+          "collection": "updates_follow"
+        },
+        {
+          "name": "send_email_every_hour",
+          "label": "Send an email overview every hour",
+          "collection": "updates_follow"
+        },
+        {
+          "name": "send_email_once_day",
+          "label": "Send an email overview once a day",
+          "collection": "updates_follow"
+        }
+      ]
+    },
+    {
+      "name": "comments",
+      "label": "Comments",
+      "subHeading": "When a team member comments on a note you own or where you have left comments.",
+      "group": [
+        {
+          "name": "show_alert",
+          "label": "Show alert",
+          "collection": "comments"
+        },
+        {
+          "name": "send_email_every_comment",
+          "label": "Send a separate email for every comment",
+          "collection": "comments"
+        }
+      ]
+    },
+    {
+      "name": "mentions",
+      "label": "Mentions",
+      "subHeading": "When a team member @mentions you in a note or a comment.",
+      "group": [
+        {
+          "name": "show_alert",
+          "label": "Show alert",
+          "collection": "mentions"
+        },
+        {
+          "name": "separate_email_every_mentioned",
+          "label": "Send a separate email every time your are @mentioned",
+          "collection": "mentions"
+        }
+      ]
+    },
+    {
+      "name": "assigned_to_you",
+      "label": "Assigned to you",
+      "subHeading": "When you are assigned a new deal, organization, or person.",
+      "group": [
+        {
+          "name": "show_alert",
+          "label": "Show alert",
+          "collection": "assigned_to_you"
+        },
+        {
+          "name": "include_in_summary_email",
+          "label": "Include in summary email",
+          "collection": "assigned_to_you"
+        }
+      ]
+    }
+  ]
+}

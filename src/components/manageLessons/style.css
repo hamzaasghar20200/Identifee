@@ -1,0 +1,16 @@
+.form-group .mux-drop-area{
+  height: 80px !important;
+  display: block !important;
+}
+
+.form-group .mux-drop-area > *,
+.form-group .mux-drop-area {
+  font-weight: 600 !important;
+  color: var(--black) !important;
+  font-size: 13px !important;
+  text-transform: revert !important;
+}
+
+.form-group .mux-drop-area span::after{
+  display: none;
+}

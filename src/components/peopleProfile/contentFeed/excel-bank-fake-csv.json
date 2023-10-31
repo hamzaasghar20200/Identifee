@@ -1,0 +1,923 @@
+[
+  {
+    "name": "Relationship Summary",
+    "data": {
+      "headers": [
+        "Account",
+        "Name",
+        "Investable Balance",
+        "Required Balance",
+        "Excess / Deficit",
+        "Total Activity"
+      ],
+      "values": [
+        [
+          "807-C-482036",
+          "Master International Cor",
+          "20,365,223",
+          "12,851,168",
+          "7,851,394",
+          "19,822.30"
+        ],
+        [
+          "807-D-1890694175",
+          "Master International Cor",
+          "8,361,391",
+          "10,249,893",
+          "-1,888,502",
+          "15,725.76"
+        ],
+        [
+          "807-D-1891154047",
+          "Master Automation Corpor",
+          "1,537,470",
+          "177,248",
+          "1,360,222",
+          "271.94"
+        ],
+        [
+          "807-D-1892975028",
+          "White Oak River Inc",
+          "954,191",
+          "136,589",
+          "817,601",
+          "229.56"
+        ],
+        [
+          "807-D-1894034931",
+          "All American Semiconduct",
+          "621,268",
+          "176,048",
+          "445,220",
+          "270.10"
+        ],
+        [
+          "807-D-1894209517",
+          "Jslbra LLC",
+          "1,461,6433",
+          "192,226",
+          "1,269,418",
+          "294.92"
+        ],
+        [
+          "807-D-1894295359",
+          "Salt River Capital LLC",
+          "2,461,3652",
+          "241,553",
+          "2,219,812",
+          "370.60"
+        ],
+        [
+          "807-D-1894417797",
+          "Niztar Capital LLC",
+          "3,414",
+          "69,272",
+          "-65,858",
+          "106.28"
+        ],
+        [
+          "807-D-1894521911",
+          "Westwood River LLC",
+          "546,904",
+          "109,064",
+          "437,840",
+          "167.33"
+        ],
+        [
+          "807-D-1894775145",
+          "Cypress Village Condos L",
+          "1,786,489",
+          "219,575",
+          "1,566,914",
+          "336.88"
+        ],
+        [
+          "807-D-1894775707",
+          "Oly River 1301 LLC",
+          "930,402",
+          "134,940",
+          "795,462",
+          "207.03"
+        ],
+        [
+          "807-D-1894775715",
+          "Oly River 1220 LLC",
+          "296,235",
+          "90,116",
+          "206,118",
+          "138.26"
+        ],
+        [
+          "807-D-1894775830",
+          "Oakland Fresno Capital L",
+          "744,245",
+          "123,306",
+          "620,939",
+          "189.18"
+        ],
+        [
+          "807-D-1894989597",
+          "Oak Knoll River LLC",
+          "204,596",
+          "88,709",
+          "115,887",
+          "136.10"
+        ],
+        [
+          "807-D-1894991502",
+          "Oly River 1800, LLC",
+          "0",
+          "0",
+          "337,339",
+          "105.57"
+        ],
+        [
+          "807-D-1895206637",
+          "Master International Cor",
+          "0",
+          "565,754",
+          "-565,754",
+          "868.00"
+        ],
+        [
+          "807-D-1895340956",
+          "Olive Tree Family Office",
+          "145,024",
+          "105,538",
+          "39,487",
+          "161.92"
+        ],
+        [
+          "807-D-1895371076",
+          "Intrepreneur Family Vent",
+          "100,000",
+          "75,673",
+          "24,327",
+          "116.10"
+        ],
+        [
+          "807-D-1895467379",
+          "Master Flower LLC",
+          "7,162",
+          "489",
+          "6,673",
+          "0.75"
+        ],
+        [
+          "807-D-1895649497",
+          "Fresno River LLC",
+          "203,423",
+          "95,174",
+          "108,248",
+          "146.02"
+        ]
+      ]
+    }
+  },
+  {
+    "name": "Balance Summary",
+    "data": {
+      "headers": [
+        "Title",
+        "Value"
+      ],
+      "values": [
+        [
+          "Average Ledger Balance",
+          "$21,111,234.90"
+        ],
+        [
+          "Less Average Float",
+          "$408,673.71"
+        ],
+        [
+          "Average Collected Balance",
+          "$20,702,561.19"
+        ],
+        [
+          "Average Positive Collected Balance",
+          "$20,702,561.19"
+        ],
+        [
+          "Average Negative Collected Balance",
+          "$0.00"
+        ],
+        [
+          "Investable Balance Basis",
+          "$20,702,561.19"
+        ],
+        [
+          "Less Reserve requirement at 0.000000%",
+          "$0.00"
+        ],
+        [
+          "Less Non Eca Balances",
+          "$337,338.60"
+        ],
+        [
+          "Investable Balance",
+          "$20,365,222.59"
+        ],
+        [
+          "Required Balance Basis",
+          "$20,702,561.19"
+        ],
+        [
+          "Less Balance Required For Services",
+          "$12,851,167.55"
+        ],
+        [
+          "Excess/Deficit Balance",
+          "$7,851,393.64"
+        ]
+      ]
+    }
+  },
+  {
+    "name": "Results Summary",
+    "data": {
+      "headers": [
+        "Title",
+        "Value"
+      ],
+      "values": [
+        [
+          "Earnings Credit at 2.000000% of Earnings Balance Basis",
+          "$31,245.28"
+        ],
+        [
+          "Less Total Analyzed Fees",
+          "$19,822.30"
+        ],
+        [
+          "Analyzed Results",
+          "$11,422.98"
+        ],
+        [
+          "Results Transferred In",
+          "$11,422.98"
+        ],
+        [
+          "Total Analyzed Result",
+          "$11,422.98"
+        ],
+        [
+          "Total Fee-Based Fees",
+          "$0.00"
+        ],
+        [
+          "Fee-Based Results",
+          "$0.00"
+        ],
+        [
+          "Fee-Based Results Transferred In",
+          "$0.00"
+        ],
+        [
+          "Total Fee-Based Results",
+          "$0.00"
+        ]
+      ]
+    }
+  },
+  {
+    "name": "Service Details",
+    "data": {
+      "headers": [
+        "Service Description",
+        "Volume",
+        "Price",
+        "Total Fee",
+        "Required Balance"
+      ],
+      "values": [
+        [
+          "ARP Data Entry Via Web",
+          "33",
+          "0.70000000",
+          "23.10",
+          "15,056.34"
+        ],
+        [
+          "ARP POS Pay Manual Entries",
+          "2",
+          "6.0000",
+          "12.00",
+          "7,821.48"
+        ],
+        [
+          "ACH INTL Transaction Received",
+          "12",
+          "1.2500",
+          "15.00",
+          "9,776.85"
+        ],
+        [
+          "ACH Items Originated",
+          "2,584",
+          "0.13650000",
+          "352.72",
+          "229,899.37"
+        ],
+        [
+          "ACH Positive Pay Item",
+          "65",
+          "0.06200000",
+          "4.03",
+          "2,626.71"
+        ],
+        [
+          "ACH Positive Pay Return Item",
+          "2",
+          "8.4000",
+          "16.80",
+          "10,950.07"
+        ],
+        [
+          "ACH Positive Pay Monthly Maint",
+          "18",
+          "32.0000",
+          "576.00",
+          "354,573.76"
+        ],
+        [
+          "ACH File",
+          "7",
+          "25.0000",
+          "175.00",
+          "114,063.25"
+        ],
+        [
+          "ACH Returned Item",
+          "4",
+          "5.2500",
+          "21.00",
+          "13,687.59"
+        ],
+        [
+          "ACH Monthly Maintenance",
+          "1",
+          "68.0000",
+          "68.00",
+          "44,321.72"
+        ],
+        [
+          "ACH Notification Of Change",
+          "3",
+          "5.2500",
+          "15.75",
+          "10,265.70"
+        ],
+        [
+          "ACH Originated-Per Addenda Record",
+          "2",
+          "0.05000000",
+          "0.10",
+          "65.18"
+        ],
+        [
+          "ACH Data Changed Per NOC",
+          "3",
+          "10.5000",
+          "31.50",
+          "20,531.39"
+        ],
+        [
+          "ACH Confirmation / Exception Alerts",
+          "32",
+          "Flat",
+          "8.40",
+          "5,475.03"
+        ],
+        [
+          "ACH And Check Positive Pay Alerts",
+          "341",
+          "Flat",
+          "151.20",
+          "93,075.68"
+        ],
+        [
+          "Remote Deposit Maintenance",
+          "1",
+          "63.0000",
+          "63.00",
+          "41,062.77"
+        ],
+        [
+          "Remote Deposit Item",
+          "140",
+          "0.08400000",
+          "11.77",
+          "7,560.75"
+        ],
+        [
+          "Credit",
+          "43",
+          "1.5000",
+          "64.50",
+          "42,040.49"
+        ],
+        [
+          "Account Maintenance",
+          "18",
+          "29.0000",
+          "522.00",
+          "Waived"
+        ],
+        [
+          "Electronic Credit",
+          "1,6492",
+          "0.25000000",
+          "412.25",
+          "268,700.43"
+        ],
+        [
+          "Electronic Debit",
+          "912",
+          "0.25000000",
+          "22.75",
+          "14,828.23"
+        ],
+        [
+          "Debit",
+          "751",
+          "0.25000000",
+          "187.75",
+          "122,373.59"
+        ],
+        [
+          "Activity Fee",
+          "3",
+          "0.0000",
+          "0.00",
+          "Fee-based"
+        ],
+        [
+          "Items Deposited",
+          "125",
+          "0.20000000",
+          "25.00",
+          "16,294.76"
+        ],
+        [
+          "Account Balance Fee (Per Thousand)",
+          "20,773",
+          "0.1070",
+          "2,222.73",
+          "1,448,753.18"
+        ],
+        [
+          "EDI Implementation-Receiver",
+          "1",
+          "130.0000",
+          "130.00",
+          "84,732.70"
+        ],
+        [
+          "LBX Item Charges",
+          "2,633",
+          "0.43000000",
+          "1,132.19",
+          "737,950.12"
+        ],
+        [
+          "LBX Correspondence",
+          "182",
+          "0.4500",
+          "8.10",
+          "5,279.50"
+        ],
+        [
+          "LBX Foreign Items Deposited",
+          "7",
+          "6.3000",
+          "44.10",
+          "28,743.94"
+        ],
+        [
+          "LBX Payee Validation",
+          "7",
+          "Flat",
+          "10.50",
+          "6,843.80"
+        ],
+        [
+          "LBX Keystrokes",
+          "160,865",
+          "0.01600000",
+          "2,573.84",
+          "1,677,603.17"
+        ],
+        [
+          "LBX Image Monthly Maintenance",
+          "1",
+          "210.0000",
+          "210.00",
+          "136,875.90"
+        ],
+        [
+          "LBX Images Captured-Checks",
+          "2,633",
+          "0.08400000",
+          "221.17",
+          "144,156.39"
+        ],
+        [
+          "LBX Images Captured-Invoices",
+          "3,398",
+          "0.08400000",
+          "285.43",
+          "186,040.42"
+        ],
+        [
+          "LBX Images Captured-Correspondence",
+          "36",
+          "0.08400000",
+          "3.02",
+          "1,968.41"
+        ],
+        [
+          "LBX-Item Deposited",
+          "2,626",
+          "0.13700000",
+          "359.76",
+          "234,487.96"
+        ],
+        [
+          "ARP-Positive Pay Stale Date",
+          "2",
+          "12.0000",
+          "24.00",
+          "15,642.96"
+        ],
+        [
+          "Image Positive Pay Maint Wo Recon",
+          "17",
+          "65.0000",
+          "1,105.00",
+          "677,861.60"
+        ],
+        [
+          "Web Positive Pay Maintenance",
+          "1",
+          "60.0000",
+          "60.00",
+          "39,107.40"
+        ],
+        [
+          "Positive Pay File Transmission",
+          "6",
+          "10.0000",
+          "60.00",
+          "Waived"
+        ],
+        [
+          "Image Positive Pay Except",
+          "135",
+          "2.2000",
+          "297.00",
+          "193,581.62"
+        ],
+        [
+          "Master Account Maintenance Fee",
+          "1",
+          "45.0000",
+          "45.00",
+          "29,330.55"
+        ],
+        [
+          "Secondary Account Maintenance Fee",
+          "1",
+          "30.0000",
+          "30.00",
+          "19,553.70"
+        ],
+        [
+          "Target Balance Credit",
+          "11",
+          "0.5500",
+          "6.05",
+          "3,943.33"
+        ],
+        [
+          "Target Balance Debit",
+          "11",
+          "0.5500",
+          "6.05",
+          "3,943.33"
+        ],
+        [
+          "Tir Returned Items",
+          "4",
+          "23.0000",
+          "92.00",
+          "59,964.68"
+        ],
+        [
+          "Tir Statements",
+          "18",
+          "7.0000",
+          "126.00",
+          "82,125.54"
+        ],
+        [
+          "Tir Prior Day Account",
+          "18",
+          "25.0000",
+          "450.00",
+          "293,305.50"
+        ],
+        [
+          "Tir Prior Day Item",
+          "6,753",
+          "0.05000000",
+          "337.65",
+          "220,076.89"
+        ],
+        [
+          "Tir Current Day Account",
+          "6",
+          "42.0000",
+          "252.00",
+          "164,251.08"
+        ],
+        [
+          "Tir Current Day Item",
+          "2,366",
+          "0.0850",
+          "201.11",
+          "131,081.49"
+        ],
+        [
+          "Tir Special Reports",
+          "1",
+          "17.5000",
+          "17.50",
+          "11,406.33"
+        ],
+        [
+          "Tir LBX Detail Rpt Consolidated",
+          "2",
+          "52.5000",
+          "105.00",
+          "68,437.95"
+        ],
+        [
+          "Tir Prior Day Check Image (G)",
+          "2",
+          "1.05000000",
+          "2.10",
+          "1,368.76"
+        ],
+        [
+          "Tpa ACH Service",
+          "1",
+          "40.0000",
+          "40.00",
+          "26,071.60"
+        ],
+        [
+          "Tpa ACH Item",
+          "449",
+          "0.17000000",
+          "76.33",
+          "49,751.13"
+        ],
+        [
+          "Tpa Outgoing Domestic Wire",
+          "9",
+          "12.5000",
+          "112.50",
+          "73,326.38"
+        ],
+        [
+          "Tpa Outgoing INTL Wire-Shared",
+          "47",
+          "28.0000",
+          "1,316.00",
+          "857,755.64"
+        ],
+        [
+          "Tpa Book Transfer Via Wire",
+          "1",
+          "5.7500",
+          "5.75",
+          "3,747.79"
+        ],
+        [
+          "Tpa Outgoing INTL Wire-FX-Shared",
+          "1",
+          "21.0000",
+          "21.00",
+          "13,687.59"
+        ],
+        [
+          "Tpa Check Management Service",
+          "1",
+          "16.0000",
+          "16.00",
+          "10,428.64"
+        ],
+        [
+          "Tpa Check Services Image Request",
+          "3",
+          "1.6000",
+          "4.80",
+          "3,128.59"
+        ],
+        [
+          "Tpa Stop Payment Item",
+          "8",
+          "20.0000",
+          "160.00",
+          "104,286.40"
+        ],
+        [
+          "Tpa Wire/account Transfer Service",
+          "2",
+          "Flat",
+          "32.00",
+          "20,857.28"
+        ],
+        [
+          "Domestic Incoming Wire",
+          "67",
+          "5.0000",
+          "335.00",
+          "218,349.65"
+        ],
+        [
+          "Domestic Outgoing Wire Non-Repet",
+          "2",
+          "29.0000",
+          "58.00",
+          "37,803.82"
+        ],
+        [
+          "International Incoming Wire",
+          "294",
+          "17.0000",
+          "4,998.00",
+          "3,257,646.42"
+        ],
+        [
+          "Domestic Wire Mail Advice",
+          "4",
+          "8.0000",
+          "32.00",
+          "20,857.28"
+        ]
+      ]
+    }
+  },
+  {
+    "name": "Historical Summary",
+    "data": {
+      "headers": [
+        "Month",
+        "Average Ledger Balance",
+        "Average Positive Collected Balance",
+        "Investable Balance",
+        "Excess / Deficit Balance",
+        "Earnings Credit Amount",
+        "Analysis Based Fees",
+        "Fees Based Fees",
+        "Service Charges Due"
+      ],
+      "values": [
+        [
+          "March",
+          "24,303,582",
+          "23,547,607",
+          "20,895,905",
+          "-183,835,160",
+          "2,894",
+          "26,189",
+          "0",
+          "23,295"
+        ],
+        [
+          "April",
+          "24,688,771",
+          "23,466,581",
+          "20,822,636",
+          "-165,975,208",
+          "2,824",
+          "23,250",
+          "0",
+          "20,426"
+        ],
+        [
+          "May",
+          "20,149,515",
+          "19,279,227",
+          "17,051,317",
+          "-162,488,582",
+          "2,312",
+          "22,821",
+          "0",
+          "20,509"
+        ],
+        [
+          "June",
+          "21,591,708",
+          "20,394,256",
+          "18,055,292",
+          "-52,994,646",
+          "5,936",
+          "21,813",
+          "0",
+          "15,877"
+        ],
+        [
+          "July",
+          "22,869,348",
+          "22,125,337",
+          "19,611,875",
+          "-53,980,188",
+          "6,663",
+          "23,368",
+          "0",
+          "16,705"
+        ],
+        [
+          "August",
+          "19,870,945",
+          "19,129,715",
+          "16,914,328",
+          "-20,277,928",
+          "10,774",
+          "22,690",
+          "0",
+          "11,916"
+        ],
+        [
+          "September",
+          "20,655,950",
+          "20,198,446",
+          "19,860,320",
+          "-817,131",
+          "20,404",
+          "21,699",
+          "200",
+          "1,495"
+        ],
+        [
+          "October",
+          "18,777,228",
+          "18,275,724",
+          "17,938,894",
+          "-2,676,742",
+          "19,045",
+          "22,350",
+          "0",
+          "3,306"
+        ],
+        [
+          "November",
+          "18,001,230",
+          "17,416,671",
+          "17,088,050",
+          "-3,727,911",
+          "17,556",
+          "21,830",
+          "0",
+          "4,274"
+        ],
+        [
+          "December",
+          "20,556,231",
+          "20,117,166",
+          "19,784,605",
+          "3,797,380",
+          "25,205",
+          "20,896",
+          "0",
+          "0"
+        ],
+        [
+          "January",
+          "21,510,2810",
+          "21,042,217",
+          "20,707,752",
+          "5,092,629",
+          "26,381",
+          "20,4216",
+          "0",
+          "0"
+        ],
+        [
+          "February",
+          "21,111,235",
+          "20,702,561",
+          "20,365,2213",
+          "7,851,394",
+          "31,245",
+          "19,822",
+          "221,122",
+          "0"
+        ]
+      ]
+    }
+  }
+]
